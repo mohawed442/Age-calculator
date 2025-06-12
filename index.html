@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<!-- ملف يتبعه جميع المبرمجين -->
+<link rel="stylesheet" href="css/normalize.css">
+<!-- ملف الايكونات  -->
+<link rel="stylesheet" href="css/all.min.css">
+<!-- ملف bootstrab . css  -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!--  ملفات عدل الاسم css الخارجيه -->
+<link rel="stylesheet" href="css/main.css">
+<!-- تنسقات خطوط جوجل  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+
+    <div class="container  d-flex align-items-center justify-content-center">
+        <div class="form">
+            <form action="">
+                <div class="date">
+                    <div class="day">
+                        <label class="d-block text-center opacity-50" for="day">day </label>
+                        <input class="item" id="day" type="number" min="1" max="31">
+                    </div>
+                    <div class="month">
+                        <label class="d-block text-center opacity-50" for="month">month</label>
+                        <input class="item" id="month" type="number" min="1" max="12">
+                    </div>
+                    <div class="year">
+                        <label class="d-block text-center opacity-50" for="year">year</label>
+                        <input class="item" id="year" type="number" min="1950">
+                    </div>
+                </div>
+                <button id="submit" type="button" class=" item btn d-block m-auto my-5 px-4 py-2 border-0 rounded-2 bg-primary">Calculate</button>
+          
+            </form>
+            <div class="contint text-center fw-bold fs-2">
+                You are <span id="old" class="text-primary ">--</span> years old
+            </div>
+        </div>
+    </div>
+   
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/mo.js"></script>
+<!-- ملف bootstrab . js  -->
+</body>
+</html>
